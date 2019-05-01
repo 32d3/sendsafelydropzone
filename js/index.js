@@ -26,10 +26,10 @@ function isFormValid() {
       return isValid;
     }
   });
-  if (isValid && widget.nbrOfFilesAttached < 1) {
-    alert("You did not attach a file");
-    isValid = false;
-    return isValid;
+  //if (isValid && widget.nbrOfFilesAttached < 1) {
+    //alert("You did not attach a file");
+    //isValid = false;
+    //return isValid;
   }
   return isValid;
 }
