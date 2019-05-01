@@ -30,7 +30,7 @@ function isFormValid() {
     //alert("You did not attach a file");
     //isValid = false;
     //return isValid;
-  }
+  //}
   return isValid;
 }
 
